@@ -1,6 +1,8 @@
 # poker
 A simple client/server application to simulate a poker game.
+Clients can connect to the server and play with each other over the internet.
 
+#### Running the program
 There are two run harnesses for this application; the client side and the server side.
 On the server's end, the file PokerServer.java should be run. On the client's end, PokerClient.java should be run.
 
