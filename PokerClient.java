@@ -73,7 +73,7 @@ public class PokerClient {
                 } while (true);
         }
         private static void collect_pay(){
-                System.out.println("                      You fucking won!");
+                System.out.println("                      You won!");
                 player.wins++;
                 int winnings = Integer.parseInt(server.listen());
                 System.out.printf("                      You collect $%d!\n",winnings);

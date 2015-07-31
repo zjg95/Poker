@@ -242,7 +242,7 @@ public class PokerLobby extends Thread {
         }
         else {
             for (Client a: activeClients)
-                a.tell("                      Everyone fucking lost!");
+                a.tell("                      Everyone lost!");
         }
     }
     private void tell_lose(Client a,Player winner,int type){
